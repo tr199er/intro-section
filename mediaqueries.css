@@ -1,0 +1,11 @@
+@media screen and (max-width: 1200px) {
+  #nav-bar {
+    display: none;
+  }
+  #hamburger-nav {
+    display: flex;
+    margin: 20px 40px;
+    position: relative;
+    justify-content: space-between;
+  }
+}
