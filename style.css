@@ -7,6 +7,7 @@
 
 body {
   font-family: "Epilogue", sans-serif;
+  background: yellow;
 }
 html {
   scroll-behavior: smooth;
@@ -14,8 +15,9 @@ html {
 
 /* navbar */
 #nav-bar {
-  margin: 30px 50px;
+  padding: 30px 50px;
   display: flex;
+  background: white;
 }
 .nav-links-container {
   display: flex;
@@ -31,28 +33,58 @@ html {
 .nav-links li a {
   text-decoration: none;
   color: gray;
-  padding: 4px 8px;
+  padding: 0 8px;
   display: flex;
 }
+.nav-btn-links {
+  display: flex;
+  list-style: none;
+  position: absolute;
+  right: 0;
+  background-color: white;
+  transition: all 0.4s ease-in-out;
+}
+.nav-btn-links li {
+  margin: 7px 14px 0 0;
+}
 
-/* HOVER EFFECT TO THE NAV LINKS */
+.nav-btn-links li a {
+  text-decoration: none;
+  color: gray;
+  padding: 8px 16px;
+}
+.nav-btn-2 {
+  border: gray 1.2px solid;
+  border-radius: 8px;
+}
 
+/* HOVER EFFECT TO THE NAVBAR LINKS */
+.nav-links li a:hover {
+  color: black;
+  cursor: pointer;
+}
+.nav-btn-2:hover {
+  border: gray 1.2px solid;
+  color: black;
+}
+.nav-btn-1:hover {
+  color: black;
+}
 /* HAMBURGER  */
 #hamburger-nav {
   display: none;
 }
 
 .hamburger-menu {
-  position: relative;
+  position: absolute;
   display: inline-block;
 }
 
 .hamburger-icon {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 24px;
-  width: 30px;
   cursor: pointer;
 }
 
@@ -60,19 +92,18 @@ html {
   width: 100%;
   height: 2px;
   background-color: black;
-  transition: all 0.3 ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 .menu-links {
-  position: absolute;
-  top: 100%;
+  position: relative;
+  top: 0;
   right: 0;
   background-color: white;
   width: fit-content;
   max-height: 0;
   overflow: hidden;
   transition: all 0.3 ease-in-out;
-  /* height: 100%; */
 }
 
 .menu-links a {
