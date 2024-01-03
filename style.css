@@ -15,7 +15,23 @@ html {
 /* navbar */
 #nav-bar {
   margin: 30px 50px;
-  position: relative;
+  display: flex;
+}
+.nav-links-container {
+  display: flex;
+}
+.nav-links {
+  display: flex;
+  list-style: none;
+  margin: 0 4rem;
+}
+.nav-links li {
+  margin-top: 7px;
+}
+.nav-links li a {
+  text-decoration: none;
+  color: gray;
+  padding: 4px 8px;
   display: flex;
 }
 
