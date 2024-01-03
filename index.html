@@ -3,78 +3,30 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
-    <link rel="stylesheet" href="./mediaqueries.css" />
     <title>Snap</title>
+    <link rel="stylesheet" href="./mediaqueries.css" />
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <!-- NAVBAR -->
-    <nav id="nav-bar">
-      <div class="nav-logo">
-        <img src="./images/logo.svg" alt="Snap" />
+    <nav class="nav-bar">
+      <div class="nav-links">
+        <img class="logo" src="./images/logo.svg" alt="Snap" />
+        <div>
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#project">Project</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
       </div>
-      <div>
-        <ul class="nav-links">
-          <li>
-            <a href="#features"
-              >Features <img src="./images/icon-arrow-down.svg" alt=""
-            /></a>
-          </li>
-          <li>
-            <a href="#company"
-              >Company<img src="./images/icon-arrow-down.svg" alt=""
-            /></a>
-          </li>
-          <li><a href="#career">Career</a></li>
-          <li><a href="#about">About</a></li>
+      <div class="nav-btn">
+        <ul>
+          <li><a href="#">Login</a></li>
+          <li><a href="#">Register</a></li>
         </ul>
-        <div class="nav-btn">
-          <ul class="nav-btn">
-            <li></li>
-            <li></li>
-          </ul>
-        </div>
       </div>
     </nav>
-
-    <!-- HAMBURGER NAVBAR -->
-    <nav id="hamburger-nav">
-      <div class="nav-logo">
-        <img src="./images/logo.svg" alt="Snap" />
-      </div>
-      <div class="hamburger-menu">
-        <div class="hamburger-icon" onclick="toggleMenu()">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-        <div class="menu-links">
-          <ul>
-            <li><a href="#features" onclick="toggleMenu()">Features</a></li>
-            <li><a href="#company" onclick="toggleMenu()">Company</a></li>
-            <li><a href="#career" onclick="toggleMenu()">Career</a></li>
-            <li><a href="#about" onclick="toggleMenu()">About</a></li>
-          </ul>
-          <div class="nav-btn">
-            <button
-              class="nav-btn-1 btn-styling"
-              onclick="location.href='#'"
-              onclick="toggleMenu()"
-            >
-              Login
-            </button>
-            <button
-              class="nav-btn-2 btn-styling"
-              onclick="location.href='#'"
-              onclick="toggleMenu()"
-            >
-              Register
-            </button>
-          </div>
-        </div>
-      </div>
-    </nav>
-
     <script src="./script.js"></script>
   </body>
 </html>
