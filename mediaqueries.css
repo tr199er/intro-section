@@ -1,4 +1,35 @@
 @media screen and (max-width: 1200px) {
+  .sponsors {
+    margin-top: 110px;
+  }
+}
+@media screen and (max-width: 1090px) {
+  .sponsors {
+    margin-top: 80px;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex-direction: row;
+  }
+}
+@media screen and (max-width: 1045px) {
+  .text p {
+    margin-top: 10px;
+  }
+  .intro-page-btn {
+    margin-top: 25px;
+  }
+  .sponsors {
+    margin-top: 40px;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex-direction: row;
+  }
+}
+@media screen and (max-width: 1045px) {
+#
+   }
+
+@media screen and (max-width: 700px) {
   #nav-bar {
     display: none;
   }
