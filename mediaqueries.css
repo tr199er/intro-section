@@ -175,6 +175,7 @@
   }
   .text p {
     text-align: center;
+    padding-right: 150px;
   }
   .intro-page-btn {
     display: block;
