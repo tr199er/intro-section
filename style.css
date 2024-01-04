@@ -74,3 +74,42 @@ html {
 #hamburger-nav {
   display: none;
 }
+
+/* INTRO PAGE */
+#intro-page {
+  display: flex;
+  padding: 1.5rem 100px 0 100px;
+  justify-content: space-between;
+}
+.about-section {
+  padding: 50px;
+}
+.about-section h1 {
+  font-size: 60px;
+  font-weight: 700;
+}
+.about-section h2 {
+  font-weight: 700;
+  font-size: 59px;
+}
+.about-section p {
+  font-weight: 500;
+  text-align: left;
+  margin-top: 30px;
+  color: gray;
+}
+.intro-page-btn {
+  margin-top: 40px;
+  padding: 12px 25px;
+  background: black;
+  color: white;
+  font-weight: 700;
+  font-size: 0.9rem;
+  border: none;
+  border-radius: 10px;
+}
+.img {
+  margin: 0.5rem;
+  width: 50%;
+  align-self: center;
+}
