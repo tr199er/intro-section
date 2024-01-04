@@ -81,12 +81,13 @@ html {
   padding: 0.2rem 100px 0 100px;
   justify-content: space-between;
 }
+.mobile-img {
+  display: none;
+}
 .about-section {
   padding: 50px 50px 0;
 }
-/* .text {
-  padding: 50px;
-} */
+
 .text h1 {
   font-size: 60px;
   font-weight: 700;
