@@ -79,14 +79,17 @@ html {
 #intro-page {
   display: flex;
   padding: 0.2rem 100px 0 100px;
-  justify-content: space-between;
-}
-.mobile-img {
-  display: none;
+  gap: 2rem;
 }
 .about-section {
   padding: 50px 50px 0;
+  flex: 1;
 }
+
+.mobile-img {
+  display: none;
+}
+
 .mobile-text-heading {
   display: none;
 }
@@ -126,3 +129,6 @@ html {
   width: 380px;
   height: 480px;
 }
+/* .img {
+  width: 40%;
+} */
