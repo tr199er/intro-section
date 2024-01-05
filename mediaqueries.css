@@ -196,11 +196,13 @@
   .text p {
     text-align: center;
     padding: auto;
+    margin-top: 10px;
+    line-height: 1.5;
   }
 
   .intro-page-btn {
     display: block;
-    margin: 15px auto;
+    margin: 25px auto;
   }
 
   .sponsors {
@@ -211,7 +213,7 @@
   }
 
   .sponsors-img {
-    width: 13%;
+    width: 14%;
     height: auto;
   }
 }
