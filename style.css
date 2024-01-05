@@ -118,17 +118,30 @@ html {
   border: none;
   border-radius: 10px;
 }
-.sponsors {
+/* .sponsors {
   margin-top: 125px;
 }
 .sponsors-img {
   padding-right: 10px;
+} */
+.sponsors {
+  margin-top: 125px;
+  width: 100%;
+  /* margin: 10px; */
+  display: flex;
+  justify-content: space-around;
+}
+
+.sponsors-img {
+  width: 11%;
+  height: auto;
 }
 
 .intro-page-img {
   width: 380px;
   height: 480px;
 }
-/* .img {
-  width: 40%;
-} */
+.img {
+  display: flex;
+  flex: 1;
+}
