@@ -178,20 +178,19 @@
     display: none;
   }
 
-  /* .mobile-text-heading {
+  .mobile-text-heading {
     display: block;
-    font-size: 20px;
-    font-weight: 700;
-    padding: 3px;
+  }
+  .text {
     text-align: center;
-    margin-top: 25px;
-  } */
+  }
 
   .text h1 {
-    font-size: 40px;
+    font-size: 35px;
     padding: 3px;
     text-align: center;
     margin-top: 25px;
+    font-weight: 700;
   }
 
   .text p {
