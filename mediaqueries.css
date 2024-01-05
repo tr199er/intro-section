@@ -79,7 +79,7 @@
     top: 100%;
     right: 0;
     background-color: white;
-    width: 45vw;
+    width: 49vw;
     max-height: 0;
     overflow: hidden;
     transition: all 0.3 ease-in-out;
@@ -180,14 +180,14 @@
 
   .mobile-text-heading {
     display: block;
-    font-size: 25px;
+    font-size: 50px;
     font-weight: 700;
     padding: 3px;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 25px;
   }
 
-  .text h1 {
+  /* .text h1 {
     font-size: 25px;
     padding: 3px;
     text-align: center;
@@ -197,16 +197,16 @@
   .text p {
     text-align: center;
     padding-right: 0;
-  }
+  } */
 
   .intro-page-btn {
     display: block;
-    margin: 10px auto;
+    margin: 15px auto;
   }
 
   .sponsors {
     width: 100%;
-    margin: 10px;
+    margin: 15px 10px;
     display: flex;
     justify-content: space-around;
   }
