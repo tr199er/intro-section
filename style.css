@@ -9,6 +9,7 @@ body {
   font-family: "Epilogue", sans-serif;
   overflow-x: hidden;
 }
+
 html {
   scroll-behavior: smooth;
 }
@@ -18,24 +19,29 @@ html {
   padding: 30px 50px;
   display: flex;
 }
+
 .nav-links-container {
   display: flex;
 }
+
 .nav-links {
   display: flex;
   list-style: none;
   margin: 0 4rem;
   font-weight: 500;
 }
+
 .nav-links li {
   margin-top: 7px;
 }
+
 .nav-links li a {
   text-decoration: none;
   color: gray;
   padding: 0 8px;
   display: flex;
 }
+
 .nav-btn-links {
   display: flex;
   list-style: none;
@@ -44,6 +50,7 @@ html {
   background-color: white;
   transition: all 0.4s ease-in-out;
 }
+
 .nav-btn-links li {
   margin: 7px 14px 0 0;
 }
@@ -53,6 +60,7 @@ html {
   color: gray;
   padding: 8px 16px;
 }
+
 .nav-btn-2 {
   border: gray 1.8px solid;
   border-radius: 8px;
@@ -63,10 +71,12 @@ html {
   color: black;
   cursor: pointer;
 }
+
 .nav-btn-2:hover {
   border: gray 1.8px solid;
   color: black;
 }
+
 .nav-btn-1:hover {
   color: black;
 }
@@ -82,6 +92,7 @@ html {
   gap: 2rem;
   height: 503px;
 }
+
 .about-section {
   padding: 50px 50px 0;
   flex: 1;
@@ -100,10 +111,12 @@ html {
   font-size: 60px;
   font-weight: 700;
 }
+
 .text h2 {
   font-weight: 700;
   font-size: 59px;
 }
+
 .text p {
   font-weight: 500;
   text-align: left;
@@ -111,6 +124,7 @@ html {
   color: gray;
   padding-right: 150px;
 }
+
 .intro-page-btn {
   margin-top: 40px;
   padding: 12px 25px;
@@ -121,11 +135,13 @@ html {
   border: none;
   border-radius: 10px;
 }
+
 .sponsors-contaibner {
   position: relative;
   max-width: 80%;
   display: flex;
 }
+
 .sponsors {
   width: 90%;
   display: flex;
@@ -144,6 +160,7 @@ html {
   display: flex;
   flex: 1;
 }
+
 .intro-page-img {
   width: auto;
   height: 520px;
