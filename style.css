@@ -80,10 +80,12 @@ html {
   display: flex;
   padding: 0.2rem 100px 0 100px;
   gap: 2rem;
+  height: 503px;
 }
 .about-section {
   padding: 50px 50px 0;
   flex: 1;
+  position: relative;
 }
 
 .mobile-img {
@@ -107,6 +109,7 @@ html {
   text-align: left;
   margin-top: 30px;
   color: gray;
+  padding-right: 150px;
 }
 .intro-page-btn {
   margin-top: 40px;
@@ -118,30 +121,30 @@ html {
   border: none;
   border-radius: 10px;
 }
-/* .sponsors {
-  margin-top: 125px;
-}
-.sponsors-img {
-  padding-right: 10px;
-} */
-.sponsors {
-  margin-top: 125px;
-  width: 100%;
-  /* margin: 10px; */
+.sponsors-contaibner {
+  position: relative;
+  max-width: 80%;
   display: flex;
-  justify-content: space-around;
+}
+.sponsors {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0;
 }
 
 .sponsors-img {
-  width: 11%;
-  height: auto;
+  width: auto;
+  height: 20px;
 }
 
-.intro-page-img {
-  width: 380px;
-  height: 480px;
-}
 .img {
+  position: relative;
   display: flex;
   flex: 1;
+}
+.intro-page-img {
+  width: auto;
+  height: 520px;
 }
