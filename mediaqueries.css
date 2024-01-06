@@ -204,14 +204,14 @@
 
   .sponsors {
     width: 100%;
-    margin: 45px 5px;
+    margin: 65px 0;
     display: flex;
     justify-content: space-around;
-    position: relative;
+    position: inherit;
   }
 
   .sponsors-img {
-    width: fit-content;
-    height: auto;
+    width: auto;
+    height: 18px;
   }
 }
